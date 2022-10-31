@@ -176,6 +176,7 @@ class SpiHostSpecs {
      */
     SpiIdentifier id;
     SpiSerialPinsMappingSpecs *serialPins;
+    void *extraSpecs;
     std::map<SpiIdentifier, SpiDeviceForHostSpecs *> devices;
 
     public:
@@ -187,6 +188,17 @@ class SpiHostSpecs {
     SpiHostSpecs(SpiIdentifier id);
     SpiHostSpecs *withSerialPins(SpiSerialPinsMappingSpecs *mapping) {
         serialPins = mapping;
+        return this;
+    }
+
+    /**
+     * @brief Set extra specifications, usually platform dependant.
+     * 
+     * @param extra 
+     * @return SpiHostSpecs* 
+     */
+    SpiHostSpecs *withExtraSpecs(void *extra) {
+        extraSpecs = extra;
         return this;
     }
 
