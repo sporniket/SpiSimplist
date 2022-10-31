@@ -229,6 +229,13 @@ class SpiHostSpecs {
     SpiSerialPinsMappingSpecs *getSerialPins() { return serialPins; }
 
     /**
+     * @brief Get the extra specifications.
+     * 
+     * @return void* 
+     */
+    void* getExtraSpecs() { return extraSpecs; }
+
+    /**
      * @brief Find out whether there is a device with the given id.
      * 
      * @return true when there is a device with this id.
