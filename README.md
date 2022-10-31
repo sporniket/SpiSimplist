@@ -1,5 +1,5 @@
 # SpiSimplist
-C++ library for PlatformIO, a fluent syntax to define SPI settings.
+C++ library for PlatformIO, a fluent syntax to specify the SPI settings of a platform.
 
 [![PlatformIO Registry](https://badges.registry.platformio.org/packages/sporniket/library/SpiSimplist.svg)](https://registry.platformio.org/libraries/sporniket/SpiSimplist)
 
