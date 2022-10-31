@@ -1,0 +1,26 @@
+{
+    "name": "SpiSimplist",
+    "version": "0.0.1",
+    "description": "C++ library for PlatformIO, a fluent syntax to specify the SPI settings of a platform.",
+    "keywords": "SPI",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sporniket/SpiSimplist"
+    },
+    "authors": [
+        {
+            "name": "David SPORN",
+            "url": "https://github.com/sporniket",
+            "maintainer": true
+        }
+    ],
+    "export": {
+        "exclude": [
+            ".gitignore",
+            "*.gz"
+        ]
+    },
+    "license": "GPL-3.0-or-later",
+    "frameworks": "*",
+    "platforms": "*"
+}
