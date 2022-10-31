@@ -1,6 +1,6 @@
 {
     "name": "SpiSimplist",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "C++ library for PlatformIO, a fluent syntax to specify the SPI settings of a platform.",
     "keywords": "SPI",
     "repository": {
